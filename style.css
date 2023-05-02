@@ -1,0 +1,92 @@
+section{
+    height: 500px;
+    background-color: whitesmoke;
+    border: solid black 1px;
+}
+
+.hero {
+    background-color: palegoldenrod;
+    height: 100vh;
+    color: seagreen; 
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Quicksand', sans-serif;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+}
+
+li {
+    /*width: 300px;*/
+    text-decoration: wavy;
+}
+
+h1 {
+    font-size: 90px;
+    font-family: 'Pacifico', cursive;
+    margin: 0px auto
+}
+
+p {
+    font-size: 36px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    margin: 0px auto 10px 50px
+    /*border: solid black 2px;*/
+}
+.hero-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.hero-text {
+    margin-left: 100px;
+    
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: hsl(285, 26%, 74%);
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 15px auto 10px 50px;
+    padding-top: 10px;
+
+}
+
+.button:hover {
+
+    background-color: aquamarine;
+}
+
+.button:active {
+
+    background-color: wheat;
+    color: blueviolet;
+}
+
+footer {
+    height: 500px;
+    background-color: palegreen;
+}
+
+/*
+font-family: 'Pacifico', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+*/
