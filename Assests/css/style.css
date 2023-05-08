@@ -7,7 +7,7 @@ section{
 .hero {
     background-color: palegoldenrod;
     height: 100vh;
-    color: seagreen; 
+    color: #5488A2; 
     font-size: 30px;
 }
 
@@ -15,6 +15,12 @@ nav {
     display: flex;
     justify-content: space-between;
     font-family: 'Quicksand', sans-serif;
+}
+
+.logo {
+
+    height: 150px;
+    margin: 5px;
 }
 
 ul {
@@ -32,10 +38,10 @@ li {
 h1 {
     font-size: 90px;
     font-family: 'Pacifico', cursive;
-    margin: 0px auto
+    margin: 0px auto;
 }
 
-p {
+h2 {
     font-size: 36px;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
@@ -51,7 +57,7 @@ p {
 }
 .hero-text {
     margin-left: 100px;
-    
+    padding-bottom: 200px;
 }
 
 .button {
@@ -69,15 +75,22 @@ p {
 }
 
 .button:hover {
-
     background-color: aquamarine;
 }
 
 .button:active {
-
     background-color: wheat;
     color: blueviolet;
 }
+
+.socials {
+    padding-bottom: 200px;
+    
+}
+.social {
+    margin-bottom: 10px;
+}
+
 
 footer {
     height: 500px;
