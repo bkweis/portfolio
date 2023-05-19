@@ -23,7 +23,7 @@ nav {
     margin: 5px;
 }
 
-ul {
+.navul {
     display: flex;
     list-style-type: none;
     width: 500px;
@@ -75,7 +75,7 @@ h2 {
 }
 
 .button:hover {
-    background-color: aquamarine;
+    background-color: hsl(137, 33%, 66%);
 }
 
 .button:active {
@@ -94,7 +94,7 @@ h2 {
 
 footer {
     height: 500px;
-    background-color: palegreen;
+    background-color: hsl(137, 33%, 66%);
 }
 
 /*
