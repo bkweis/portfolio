@@ -1,12 +1,45 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+}
 section{
-    height: 500px;
-    background-color: whitesmoke;
-    border: solid black 1px;
+    
+    background-color: palegoldenrod;
+    
+}
+
+h1 {
+    font-size: 90px;
+    font-family: 'Pacifico', cursive;
+    margin: 0px auto;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: #5488A2; 
+    /*border: solid black 2px;*/
+}
+
+p {
+    font-size: 28px;
+    font-family: 'Quicksand', sans-serif;
+    color: #5488A2; 
+    margin: 0px auto 10px 50px;
+}
+
+a {
+    color: #5488A2; 
+}
+
+a:visited{
+    color: #5488A2; 
 }
 
 .hero {
     background-color: palegoldenrod;
-    height: 100vh;
+    min-height: 100vh;
     color: #5488A2; 
     font-size: 30px;
 }
@@ -33,31 +66,24 @@ nav {
 li {
     /*width: 300px;*/
     text-decoration: wavy;
+    color: #5488A2; 
 }
 
-h1 {
-    font-size: 90px;
-    font-family: 'Pacifico', cursive;
-    margin: 0px auto;
-}
-
-h2 {
-    font-size: 36px;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
-    margin: 0px auto 10px 50px
-    /*border: solid black 2px;*/
-}
 .hero-area {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
+    min-height: 100vh;
     width: 100%;
 }
+
 .hero-text {
     margin-left: 100px;
     padding-bottom: 200px;
+}
+
+.job {
+    margin: 0px auto 10px 50px;
 }
 
 .button {
@@ -79,7 +105,6 @@ h2 {
 }
 
 .button:active {
-    background-color: wheat;
     color: blueviolet;
 }
 
@@ -91,6 +116,16 @@ h2 {
     margin-bottom: 10px;
 }
 
+.about-me {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    
+}
+
+.information {
+    margin-left: 100px;
+}
 
 footer {
     height: 500px;
